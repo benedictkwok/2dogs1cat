@@ -13,9 +13,6 @@ try:
             pyautogui.click(500,100)
             pyautogui.typewrite('1')
             time.sleep(1)
-            #pyautogui.moveRel(10, 0, duration=0.25)
-            #pyautogui.moveRel(-10, 0, duration=0.25)
-            #time.sleep(1)
 
 except KeyboardInterrupt:
     print('\nBye!')
